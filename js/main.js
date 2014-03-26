@@ -10,3 +10,23 @@ window._skel_config = {
         mobile: { range: '-480', containers: 'fluid', lockViewport: true, grid: { collapse: true } }
     }
 };
+
+function cancelNumber(val)
+{
+    document.getElementById("display").value=val;
+}
+function theKeyValue(val)
+{
+    document.getElementById("display").value+=val;
+}
+function equalsTo()
+{
+    try
+    {
+        cancelNumber(eval(document.getElementById("display").value))
+    }
+    catch(equalsTo)
+    {
+        cancelNumber('Error')
+    }
+};
