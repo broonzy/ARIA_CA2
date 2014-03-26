@@ -1,3 +1,10 @@
+## Gerard Daly NCI ARIA CA2 26 March 2014
+student x12114804
+Calculator here:
+http://protected-plateau-3760.herokuapp.com/index.html
+
+something cool is the space background and scrolling the letters bounce out!
+
 # [HTML5 Boilerplate](http://html5boilerplate.com)
 
 HTML5 Boilerplate is a professional front-end template for building fast,
