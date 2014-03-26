@@ -7,6 +7,10 @@ something cool is the space background and scrolling the letters bounce out!
 I referenced here for the calculator
 http://www.codeproject.com/Tips/631525/Creating-Calculator-using-HTML-CSS-and-JavaScript
 
+All Jasmin tests I made pass
+http://protected-plateau-3760.herokuapp.com/test/SpecRunner.html
+
+
 # [HTML5 Boilerplate](http://html5boilerplate.com)
 
 HTML5 Boilerplate is a professional front-end template for building fast,

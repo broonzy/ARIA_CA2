@@ -14,7 +14,7 @@ var Calculator = (function() {
             num = calculatorAddValue;
             return Math.round(num);
         },
-        subtractValueAfromValueB: function(result) {
+        subtractValueAFromValueB: function(result) {
             var num = parseInt(result);
             if (isNaN(num) == true) {
                 throw new Error ("Not a number");
