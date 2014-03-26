@@ -4,6 +4,8 @@ Calculator here:
 http://protected-plateau-3760.herokuapp.com/index.html
 
 something cool is the space background and scrolling the letters bounce out!
+I referenced here for the calculator
+http://www.codeproject.com/Tips/631525/Creating-Calculator-using-HTML-CSS-and-JavaScript
 
 # [HTML5 Boilerplate](http://html5boilerplate.com)
 
