@@ -12,6 +12,7 @@
         <link rel="stylesheet" href="css/textTower.css" />
         <link rel="stylesheet" href="css/normalize.css" />
         <link rel="stylesheet" href="css/space.css" />
+        <link rel="stylesheet" href="css/calculator.css" />
 
 
         <!--[if lte IE 8]><script src="html5shiv.js" type="text/javascript"></script><![endif]-->
@@ -26,6 +27,7 @@
 
 
     </head>
+    <body>
 
     <div id="background">
         <div id="midground">
@@ -35,12 +37,12 @@
                     <!-- Header -->
                     <div id="header" class="row">
                         <div class="4u">
-                            <h1>The Converter</h1>
+                            <h1>The Calculator</h1>
                         </div>
 
                     </div>
                     <!-- Hero -->
-                    <section id="hero">
+                    <!--<section id="hero">
                         <div class="row">
                             <div class="-2u 4u">
                                 <button class="button" id="convertbutton">Do The Convert</button>
@@ -49,18 +51,59 @@
                                 <button class="button" id="clearbutton">Clear</button>
                             </div>
                         </div>
-                    </section>
+                    </section> -->
                     <!-- Features -->
                     <div class="row">
-                        <div class="-2u 4u">
-                            <h2>Metric</h2>
-                            <input class="" type="number" id="metricinput"/>
+                        <div class="12u">
+
+                            <div class="box">
+                                <div class="display"><input type="text" readonly size="18" id="d"></div>
+                                <div class="keys">
+                                    <p><input type="button" class="button_sml"
+                                        value="mrc" onclick='c("Created....................")'>
+                                        <input type="button" class="button_sml"
+                                        value="m-" onclick='c("...............by............")'>
+                                        <input type="button" class="button_sml"
+                                        value="m+" onclick='c(".....................Anoop")'>
+                                        <input type="button" class="button_sml"
+                                        value="/" onclick='v("/")'></p>
+                                    <p><input type="button" class="button_sml"
+                                       value="7" onclick='v("7")'>
+                                        <input type="button" class="button_sml"
+                                       value="8" onclick='v("8")'>
+                                        <input type="button" class="button_sml"
+                                        value="9" onclick='v("9")'>
+                                        <input type="button" class="button_sml"
+                                        value="*" onclick='v("*")'></p>
+                                    <p><input type="button" class="button_sml"
+                                        value="4" onclick='v("4")'>
+                                        <input type="button" class="button_sml"
+                                        value="5" onclick='v("5")'>
+                                        <input type="button" class="button_sml"
+                                        value="6" onclick='v("6")'>
+                                        <input type="button" class="button_sml"
+                                        value="-" onclick='v("-")'></p>
+                                    <p><input type="button" class="button_sml"
+                                        value="1" onclick='v("1")'>
+                                        <input type="button" class="button_sml"
+                                        value="2" onclick='v("2")'>
+                                        <input type="button" class="button_sml"
+                                        value="3" onclick='v("3")'>
+                                        <input type="button" class="button_sml"
+                                        value="+" onclick='v("+")'></p>
+                                    <p><input type="button" class="button_sml"
+                                         value="0" onclick='v("0")'>
+                                        <input type="button" class="button_sml"
+                                        value="." onclick='v(".")'>
+                                        <input type="button" class="button_sml"
+                                        value="C" onclick='c("")'>
+                                        <input type="button" class="button_sml"
+                                         value="=" onclick='e()'></p>
+                                </div>
+                            </div>
+
                         </div>
 
-                        <div class="-2u 4u">
-                            <h2>Imperial</h2>
-                            <input type="number" id="imperialinput"/>
-                        </div>
 
                     </div>
 
